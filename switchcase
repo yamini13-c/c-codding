@@ -1,0 +1,26 @@
+#include<stdio.h>
+main()
+{
+	int choice=0;
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:
+			printf("Food item-Grilled Chicken\nPrice-Rs180");
+			break;
+		case 2:
+			printf("Food item-Butter Chicken\nPrice-Rs 260");
+			break;
+		case 3:
+			printf("Food item-Tandoori Chicken\nPrice-Rs 450");
+			break;
+		case 4:
+			printf("Food item-Chicken 65\nPrice-Rs 155");
+			break;
+		case 5:
+			printf("Food item-Prawn Curry\nPrice-Rs 320");
+			break;
+		default:
+			printf("Food item is unavailable");
+	}
+}
